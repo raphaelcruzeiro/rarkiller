@@ -9,8 +9,7 @@ def main(args):
     for dirname, dirnames, filenames in os.walk(args[1]):
          for filename in filenames:
              file, extension = os.path.splitext(filename)
-             is_rar = extension == '.rar' or re.search(r'\.r\d+$', extension)
-             if is_rar:
+             if extension == '.rar' or re.search(r'\.r\d+$', extension):
                  filepath = os.path.join(dirname, filename)
                  print 'Deleting: %s' % filepath    
                  os.remove(filepath)

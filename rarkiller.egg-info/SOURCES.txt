@@ -1,0 +1,8 @@
+README
+setup.py
+rarkiller/__init__.py
+rarkiller/rarkiller.py
+rarkiller.egg-info/PKG-INFO
+rarkiller.egg-info/SOURCES.txt
+rarkiller.egg-info/dependency_links.txt
+rarkiller.egg-info/top_level.txt
