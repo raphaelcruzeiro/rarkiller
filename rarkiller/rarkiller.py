@@ -13,6 +13,8 @@ def main(args):
                  filepath = os.path.join(dirname, filename)
                  print 'Deleting: %s' % filepath    
                  os.remove(filepath)
+                 rar_count += 1
+    print 'Removed %d rar files' % rar_count
 
 if __name__ == "__main__":
     sys.exit(main(sys.argv))
